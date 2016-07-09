@@ -1,5 +1,5 @@
 class AnimationFrameScheduler {
-  schedule(task) {
+  schedule(task, cb) {
     requestAnimationFrame(() => {
       const result = task();
 

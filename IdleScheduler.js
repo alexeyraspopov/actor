@@ -1,5 +1,5 @@
 class IdleScheduler {
-  schedule(task) {
+  schedule(task, cb) {
     requestIdleCallback(() => {
       const result = task();
 
