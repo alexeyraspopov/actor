@@ -1,0 +1,14 @@
+{
+  "name": "actor",
+  "version": "0.1.0",
+  "description": "Actors in JS",
+  "main": "index.js",
+  "devDependencies": {
+    "uuid": "~2.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alexey Raspopov",
+  "license": "MIT"
+}
