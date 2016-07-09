@@ -1,6 +1,6 @@
 const uuid = require('uuid');
-const Actor = require('../Actor');
-const ImmediateScheduler = require('../ImmediateScheduler');
+const Actor = require('../lib/Actor');
+const ImmediateScheduler = require('../lib/ImmediateScheduler');
 
 class DecrementNode extends Actor {
   constructor() {
