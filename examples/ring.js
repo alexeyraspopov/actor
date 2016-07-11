@@ -14,14 +14,14 @@ class DecrementNode extends Actor {
     const next = nodes.next();
 
     if (!next.done) {
-      next.value.send({counter: counter - 1, nodes});
+      next.value.tell({counter: counter - 1, nodes});
     }
   }
 }
 
-const nodes = Array.from(Array(10), () => new DecrementNode());
+const nodes = Array.from(Array(10), () => DecrementNode.create());
 
-nodes[nodes.length - 1].send({
+nodes[nodes.length - 1].tell({
   counter: 10,
   nodes: nodes[Symbol.iterator]()
 });
