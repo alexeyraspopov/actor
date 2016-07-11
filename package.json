@@ -7,11 +7,10 @@
     "babel-cli": "~6.10.1",
     "babel-core": "~6.10.4",
     "babel-preset-stage-3": "~6.11.0",
-    "regenerator": "~0.8.46",
     "uuid": "~2.0.2"
   },
   "scripts": {
-    "regenerator": "regenerator lib/ es5/"
+    "ring": "babel-node examples/ring.js"
   },
   "babel": {
     "presets": [
