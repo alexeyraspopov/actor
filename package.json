@@ -7,6 +7,11 @@
     "babel-cli": "~6.10.1",
     "babel-core": "~6.10.4",
     "babel-preset-stage-3": "~6.11.0",
+    "karma": "~1.1.1",
+    "karma-babel-preprocessor": "~6.0.1",
+    "karma-chrome-launcher": "~1.0.1",
+    "karma-mocha": "~1.1.1",
+    "mocha": "~2.5.3",
     "uuid": "~2.0.2"
   },
   "scripts": {
