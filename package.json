@@ -4,22 +4,18 @@
   "description": "Actors in JS",
   "main": "index.js",
   "devDependencies": {
-    "babel-cli": "~6.10.1",
-    "babel-core": "~6.10.4",
-    "babel-preset-stage-3": "~6.11.0",
-    "karma": "~1.1.1",
-    "karma-babel-preprocessor": "~6.0.1",
-    "karma-chrome-launcher": "~1.0.1",
-    "karma-mocha": "~1.1.1",
-    "mocha": "~2.5.3",
-    "uuid": "~2.0.2"
+    "babel-cli": "~6.14.0",
+    "babel-core": "~6.14.0",
+    "babel-jest": "~15.0.0",
+    "babel-preset-es2017": "~6.14.0",
+    "jest-cli": "~15.1.1"
   },
   "scripts": {
-    "ring": "babel-node examples/ring.js"
+    "test": "jest"
   },
   "babel": {
     "presets": [
-      "stage-3"
+      "es2017"
     ]
   },
   "author": "Alexey Raspopov",
